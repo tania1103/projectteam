@@ -2,11 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Effective Solutions
-    for Your Business"
-    />
+    <meta name="description" content="The watch spot" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,714 +23,1599 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Effective Solutions for Your Business</title>
+    <title>The watch spot</title>
   </head>
-  <body>
     <!--Header top line-->
     <header class="header">
-      <div class="header-container container">
-        <!--Div versiune mobile menu functions-->
-        <div class="menu-mob" data-menu>
-          <div class="menu">
-            <button type="button" class="menu-close-button" data-menu-close>
-              <svg class="icon-close" width="8" height="8">
-                <use href="./images/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-            <!-- Navigation mob-->
-            <nav class="header-nav">
-              <ul class="menu-mob-top">
-                <li class="menu-mob-element">
-                  <a href="./index.html" class="link">Studio</a>
-                </li>
-                <li class="menu-mob-element">
-                  <a href="#" class="link">Portfolio</a>
-                </li>
-                <li class="menu-mob-element">
-                  <a href="#" class="link">Contacts</a>
-                </li>
-              </ul>
-            </nav>
-            <!--Info contacts-->
-            <address class="contacts-us-mob">
-              <ul class="contacts-us-menu">
-                <li class="menu-mob-element">
-                  <a href="mailto:info@devstudio.com" class="link"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li class="menu-mob-element">
-                  <a href="tel:+110001111111" class="link"
-                    >+11 (000) 111-11-11</a
-                  >
-                </li>
-              </ul>
-            </address>
-            <!-- Social Media Link -->
-            <ul class="social-links">
-              <li class="icon">
-                <a
-                  href="https://www.instagram.com/"
-                  class="soc-link"
-                  target="_blank"
+      <div class="header-container">
+        <nav class="header-nav">
+          <a class="header-logo header-link header-a" href="#">
+            <!-- <svg class="header-logo-img">
+                <use href="./img/icons.svg#logo-10"></use>
+              </svg> -->
+            <img
+              class="header-logo-img"
+              src="./img/header/logo.png"
+              alt="logo"
+            />
+            <span class="header-logo-text">thewatchspot</span>
+          </a>
+          <ul class="header-menu header-list">
+            <li class="header-menu-item">
+              <a class="header-menu-link header-link header-a" href="#about"
+                >about us</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link header-link header-a" href="#catalog"
+                >catalog</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link header-link header-a" href="#sale"
+                >sale</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <address class="header-address">
+          <a class="header-contact-link header-a" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a
+          >
+        </address>
+
+        <button type="button" class="mobile-menu-open-button" data-menu-open>
+          <svg class="mobile-menu-open-icon">
+            <use href="./img/swiper/icons.svg#gg_menu-left"></use>
+          </svg>
+        </button>
+      </div>
+        <div class="mobile-menu-backdrop is-hidden" data-menu>
+          <div class="mobile-menu-modal">
+            <div class="mobile-menu-top">
+              <a class="mobile-menu-logo header-link header-a" href="#">
+                <!-- <svg class="mobile-menu-logo-img">
+                  <use href="./img/icons.svg#logo-10"></use>
+                </svg> -->
+                <img
+                  class="mobile-menu-logo-img"
+                  src="./img/header/logo.png"
+                  alt="logo"
+                />
+                <span class="mobile-menu-logo-text">thewatchspot</span>
+              </a>
+
+              <button
+                class="mobile-menu-close-btn"
+                type="button"
+                data-menu-close
+              >
+                <svg class="mobile-menu-close-icon">
+                  <use href="./img/swiper/icons.svg#close"></use>
+                </svg>
+              </button>
+            </div>
+
+            <ul class="mobile-menu-list">
+              <li class="mobile-menu-item n1">
+                <a class="mobile-menu-link header-link" href="#about"
+                  >about us</a
                 >
-                  <svg class="social-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
               </li>
-              <li class="icon">
-                <a
-                  href="https://www.twitter.com/"
-                  class="soc-link"
-                  target="_blank"
+              <li class="mobile-menu-item n2">
+                <a class="mobile-menu-link header-link" href="#catalog"
+                  >catalog</a
                 >
-                  <svg class="social-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
               </li>
-              <li class="icon">
-                <a
-                  href="https://www.facebook.com/"
-                  class="soc-link"
-                  target="_blank"
-                >
-                  <svg class="social-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
+              <li class="mobile-menu-item n3">
+                <a class="mobile-menu-link header-link" href="#sale">sale</a>
               </li>
-              <li class="icon">
-                <a
-                  href="https://www.linkedin.com/"
-                  class="soc-link"
-                  target="_blank"
-                >
-                  <svg class="social-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
+            </ul>
+            <!-- <a class="mobile-menu-tel link" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            > -->
+        </div>
+     </div>
+    </header>
+    <main>
+      <!----------- HERO ----------->
+      <section class="section-hero">
+        <div class="container section-container-hero">
+          <div class="hero-title-container">
+            <h1 class="hero-title">
+              Welcome to our collection of premium watches
+            </h1>
+            <div class="hero-text-div-des">
+              <p class="hero-text">
+                Our watches are not just timepieces, but also an expression of
+                your personality and lifestyle. From classic designs to modern
+                ones, we have a watch to suit every taste and occasion.
+              </p>
+            </div>
+          </div>
+          <!------------------- SLIDER ---------------->
+          <div class="swiper-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/swiper/watch-1-tab-des-1x.jpg 1x,
+                        ./img/swiper/watch-1-tab-des-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/swiper/watch-1-mob-1x.jpg 1x,
+                        ./img/swiper/watch-1-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./img/swiper/watch-1-mob-1x.jpg"
+                      alt="watch"
+                      style="border: 1px black"
+                    />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/swiper/watch-2-tab-des-1x.jpg 1x,
+                        ./img/swiper/watch-2-tab-des-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/swiper/watch-2-mob-1x.jpg 1x,
+                        ./img/swiper/watch-2-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./img/swiper/watch-2-mob-1x.jpg"
+                      alt="watch"
+                      style="border: 1px black"
+                    />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/swiper/watch-3-tab-des-1x.jpg 1x,
+                        ./img/swiper/watch-3-tab-des-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/swiper/watch-3-mob-1x.jpg 1x,
+                        ./img/swiper/watch-3-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./img/swiper/watch-3-mob-1x.jpg"
+                      alt="watch"
+                      style="border: 1px black"
+                    />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/swiper/watch-4-tab-des-1x.jpg 1x,
+                        ./img/swiper/watch-4-tab-des-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/swiper/watch-4-mob-1x.jpg 1x,
+                        ./img/swiper/watch-4-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/swiper/watch-4-mob-1x.jpg"
+                      alt="watch"
+                      style="border: 1px black"
+                    />
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/swiper/watch-5-tab-des-1x.jpg 1x,
+                        ./img/swiper/watch-5-tab-des-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/swiper/watch-5-mob-1x.jpg 1x,
+                        ./img/swiper/watch-5-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./img/swiper/watch-5-mob-1x.jpg"
+                      alt="watch"
+                      style="border: 1px black"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+            <div class="swiper-bt-pag">
+              <div class="swiper-buttons">
+                <div class="button-next">
+                  <svg class="icon-btn-next-tab-des" width="18" height="18">
+                    <use href="./img/swiper/icons.svg#icon-chevron-next-mob"></use>
                   </svg>
-                </a>
+                </div>
+                <div class="button-prev">
+                  <svg class="icon-btn-prev-tab-des" width="18" height="18">
+                    <use href="./img/swiper/icons.svg#icon-chevron-prev-mob"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="swiper-pagination">
+                <div class="swiper-pagination-current"></div>
+                <div class="swiper-pagination-fraction"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-text-div-mob">
+            <p class="hero-text">
+              Our watches are not just timepieces, but also an expression of
+              your personality and lifestyle. From classic designs to modern
+              ones, we have a watch to suit every taste and occasion.
+            </p>
+          </div>
+
+          <div class="img-hero-tab-des">
+            <picture>
+              <source
+                srcset="
+                  ./img/hero-img/img-hero-des-1x.jpg 1x,
+                  ./img/hero-img/img-hero-des-2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/hero-img/img-hero-tab-1x.jpg 1x,
+                  ./img/hero-img/img-hero-tab-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/hero-img/img-hero-mob-1x.jpg 1x,
+                  ./img/hero-img/img-hero-mob-2x.jpg 2x
+                "
+                media="(min-width: 375px)"
+              />
+              <img
+                src="./img/hero-img/img-hero-mob-1x.jpg"
+                alt="watch"
+                style="border: 1px black"
+              />
+            </picture>
+          </div>
+
+          <div class="img-hero-mob">
+            <picture>
+              <source
+                srcset="
+                  ./img/hero-img/img-hero-des-1x.jpg 1x,
+                  ./img/hero-img/img-hero-des-2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/hero-img/img-hero-tab-1x.jpg 1x,
+                  ./img/hero-img/img-hero-tab-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/hero-img/img-hero-mob-1x.jpg 1x,
+                  ./img/hero-img/img-hero-mob-2x.jpg 2x
+                "
+                media="(min-width: 375px)"
+              />
+              <img
+                src="./img/hero-img/img-hero-mob-1x.jpg"
+                alt="watch"
+                style="border: 1px black"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container-about">
+          <div class="container-about-wrap">
+            <div class="about-title-wrap">
+              <h2 class="about-title">About us</h2>
+            </div>
+            <p class="about-subtitle-one">
+              Welcome to our premium watch collection, where luxury and style
+              meet functionality and precision. Our selection of timepieces
+              embodies the very best in Swiss craftsmanship and engineering,
+              ensuring that you'll always have a reliable and stylish accessory
+              on your wrist.
+            </p>
+            <p class="about-subtitle-two">
+              Welcome to our premium watch collection, where luxury and style
+              meet functionality and precision. Our selection of timepieces
+              embodies the very best in Swiss craftsmanship and engineering,
+              ensuring that you'll always have a reliable and stylish accessory
+              on your wrist.
+            </p>
+          </div>
+          <img
+            class="about-gif"
+            src="./img/img-new-about/watchspot.gif"
+            alt="I am gifka"
+            width="335"
+            height="365"
+          />
+        </div>
+      </section>
+      <section class="catalog" id="catalog">
+        <div class="container catalog-container">
+          <h2 id="about" class="catalog-tytle">Catalog</h2>
+          <ul class="catalog-watches-list list">
+            <li class="catalog-watches-item">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-1-desk.jpg    1x,
+                        ./img/catalog/watch-1-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-1-tab.jpg    1x,
+                        ./img/catalog/watch-1-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-1-mob.jpg    1x,
+                        ./img/catalog/watch-1-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-1-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <span class="catalog-watches-price">€395</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-2-desk.jpg    1x,
+                        ./img/catalog/watch-2-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-2-tab.jpg    1x,
+                        ./img/catalog/watch-2-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-2-mob.jpg    1x,
+                        ./img/catalog/watch-2-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-2-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Avondale Watch Police For Men
+                  </p>
+                  <span class="catalog-watches-price">€800</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-3-desk.jpg    1x,
+                        ./img/catalog/watch-3-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-3-tab.jpg    1x,
+                        ./img/catalog/watch-3-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-3-mob.jpg    1x,
+                        ./img/catalog/watch-3-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-3-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Diver 300M Co‑Axial Master Chronometer Chronograph
+                  </p>
+                  <span class="catalog-watches-price">€600</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-4-desk.jpg    1x,
+                        ./img/catalog/watch-4-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-4-tab.jpg    1x,
+                        ./img/catalog/watch-4-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-4-mob.jpg    1x,
+                        ./img/catalog/watch-4-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-4-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Diver 300M Co-Axial Master Chronometer
+                  </p>
+                  <span class="catalog-watches-price">€1400</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-5-desk.jpg    1x,
+                        ./img/catalog/watch-5-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-5-tab.jpg    1x,
+                        ./img/catalog/watch-5-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-5-mob.jpg    1x,
+                        ./img/catalog/watch-5-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-5-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Taman Watch By Police For Men
+                  </p>
+                  <span class="catalog-watches-price">€500</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-6-desk.jpg    1x,
+                        ./img/catalog/watch-6-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-6-tab.jpg    1x,
+                        ./img/catalog/watch-6-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-6-mob.jpg    1x,
+                        ./img/catalog/watch-6-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-6-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Malawi Watch Police For Men
+                  </p>
+                  <span class="catalog-watches-price">€555</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-7-desk.jpg    1x,
+                        ./img/catalog/watch-7-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-7-tab.jpg    1x,
+                        ./img/catalog/watch-7-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-7-mob.jpg    1x,
+                        ./img/catalog/watch-7-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-7-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Diver 300M Co-Axial Master Chronometer
+                  </p>
+                  <span class="catalog-watches-price">€1200</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-8-desk.jpg    1x,
+                        ./img/catalog/watch-8-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-8-tab.jpg    1x,
+                        ./img/catalog/watch-8-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-8-mob.jpg    1x,
+                        ./img/catalog/watch-8-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-8-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Greenlane Watch By Police For Men
+                  </p>
+                  <span class="catalog-watches-price">€1000</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item-desktop">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-9-desk.jpg    1x,
+                        ./img/catalog/watch-9-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-9-tab.jpg    1x,
+                        ./img/catalog/watch-9-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-9-mob.jpg    1x,
+                        ./img/catalog/watch-9-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-9-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">Squardrc 5402 Chrono</p>
+                  <span class="catalog-watches-price">€359</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item-desktop">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-10-desk.jpg    1x,
+                        ./img/catalog/watch-10-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-10-tab.jpg    1x,
+                        ./img/catalog/watch-10-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-10-mob.jpg    1x,
+                        ./img/catalog/watch-10-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-10-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">
+                    Diver 300M Co‑Axial Master Chronometer Chronograph
+                  </p>
+                  <span class="catalog-watches-price">€400</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item-desktop">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-11-desk.jpg    1x,
+                        ./img/catalog/watch-11-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-11-tab.jpg    1x,
+                        ./img/catalog/watch-11-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-11-mob.jpg    1x,
+                        ./img/catalog/watch-11-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-11-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">Citizen</p>
+                  <span class="catalog-watches-price">€519</span>
+                </div>
+              </a>
+            </li>
+            <li class="catalog-watches-item-desktop">
+              <a href="" class="catalog-overlay-link link">
+                <svg class="catalog-icons" width="24px" height="24px">
+                  <use href="./img/swiper/icons.svg#icon-heart"></use>
+                </svg>
+                <div class="watches-overlay">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/catalog/watch-12-desk.jpg    1x,
+                        ./img/catalog/watch-12-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-12-tab.jpg    1x,
+                        ./img/catalog/watch-12-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./img/catalog/watch-12-mob.jpg    1x,
+                        ./img/catalog/watch-12-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/catalog/watch-12-mob.jpg"
+                      alt="watch-catalog"
+                    />
+                  </picture>
+                  <ul class="catalog-overlay-info">
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description">Description</span>
+                      <p class="overlay-description-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </li>
+                    <li class="catalog-overlay-info-list list">
+                      <span class="overlay-description"
+                        >DETAILS & FEATUREStion</span
+                      >
+                      <p class="overlay-gender-text">
+                        Gender: man Size: 46x54.5mm Case Colour: Steel Band
+                        Material: Metal Case Material: Metal Features:
+                        Multifunction Water Resistant: 5 (ATM) Band Colour:
+                        Steel
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="catalog-watches-name">
+                  <p class="catalog-watches-tytle">Armani Exchange</p>
+                  <span class="catalog-watches-price">€400</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button class="buy-now-btn" data-modal-open type="button">
+            Buy now
+          </button>
+        </div>
+      </section>
+      <section class="new">
+        <div class="container-new">
+          <p class="section-new-subtitle">New watches</p>
+          <h3 class="section-new-title">
+            Green And Bronze—The Match Made In Heaven
+          </h3>
+          <div class="container-new-img">
+            <ul class="new-list list">
+              <li class="new-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/img-new-about/new9-1xd.jpg 1x,
+                      ./img/img-new-about/new9-2xd.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/img-new-about/new9-1xt.jpg 1x,
+                      ./img/img-new-about/new9-2xt.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/img-new-about/new9-1xm.jpg 1x,
+                      ./img/img-new-about/new9-2xm.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./img/img-new-about/new9-1xd.jpg"
+                    alt="The image of the clock on the hand"
+                    width="576"
+                    height="422"
+                  />
+                </picture>
+              </li>
+              <li class="new-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/img-new-about/new8-1xd.jpg 1x,
+                      ./img/img-new-about/new8-2xd.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/img-new-about/new8-1xt.jpg 1x,
+                      ./img/img-new-about/new8-2xt.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/img-new-about/new8-1xm.jpg 1x,
+                      ./img/img-new-about/new8-2xm.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./img/img-new-about/new8-1xd.jpg"
+                    alt="Clock image"
+                    width="576"
+                    height="422"
+                  />
+                </picture>
               </li>
             </ul>
           </div>
         </div>
-
-        <!--Navigation desktop-->
-        <nav class="header-nav">
-          <!--Logo-->
-          <a href="./index.html" class="logo-header"
-            >Web<span class="logo-header-part">Studio</span></a
-          >
-          <ul class="menu-top">
-            <li class="menu-element">
-              <a href="./index.html" class="link">Studio</a>
-            </li>
-            <li class="menu-element">
-              <a href="#" class="link">Portfolio</a>
-            </li>
-            <li class="menu-element">
-              <a href="#" class="link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <!--Info contacts-->
-        <address class="contacts-us">
-          <ul class="contacts-us-menu">
-            <li class="menu-element">
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="menu-element">
-              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
-        <!--Open Menu -->
-        <button type="button" class="open-menu-button" data-menu-open>
-          <svg class="open-menu-button-icon" width="24" height="24">
-            <use
-              class="menu-button-icon"
-              href="./images/icons.svg#icon-menu"
-            ></use>
-          </svg>
-        </button>
-      </div>
-    </header>
-    <!-- Main container-->
-    <main>
-      <!--Hero section-->
-      <section class="hero-section section">
-        <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="orders-button" data-modal-open>
-            Order Service
-          </button>
-        </div>
       </section>
-      <!-- Our concept section -->
-      <section class="first-section section">
-        <div class="first-container container">
-          <h2 class="visually-hidden">Our concept</h2>
-          <ul class="concept-list">
-            <li class="concept-item">
-              <div class="concept-icon-container">
-                <svg class="concept-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-strategy"></use>
-                </svg>
-              </div>
-              <h3 class="concept-item-header">Strategy</h3>
-              <p class="concept-item-desc">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-            <li class="concept-item">
-              <div class="concept-icon-container">
-                <svg class="concept-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-punctuality"></use>
-                </svg>
-              </div>
-              <h3 class="concept-item-header">Punctuality</h3>
-              <p class="concept-item-desc">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li class="concept-item">
-              <div class="concept-icon-container">
-                <svg class="concept-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diligence"></use>
-                </svg>
-              </div>
-              <h3 class="concept-item-header">Diligence</h3>
-              <p class="concept-item-desc">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
-            <li class="concept-item">
-              <div class="concept-icon-container">
-                <svg class="concept-icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-technologies"></use>
-                </svg>
-              </div>
-              <h3 class="concept-item-header">Technologies</h3>
-              <p class="concept-item-desc">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- team-section -->
-      <section class="team-section section">
-        <div class="container">
-          <h2 class="team-title">Our Team</h2>
-          <ul class="team-card-list">
-            <li class="team-card">
-              <img
-                class="team-photo"
-                src="./images/Photo-Mark-GUERRERO.jpg"
-                width="264"
-                height="260"
-                alt="Mark Guerrero"
-              />
-              <div class="card-container">
-                <h3 class="team-item-title">Mark Guerrero</h3>
-                <p class="team-desc">Product Designer</p>
-                <ul class="social-links">
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-card">
-              <img
-                class="team-photo"
-                src="./images/Photo-Tom-FORD-frontent-developer.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <div class="card-container">
-                <h3 class="team-item-title">Tom Ford</h3>
-                <p class="team-desc">Frontend Developer</p>
-                <ul class="social-links">
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-card">
-              <img
-                class="team-photo"
-                src="./images/Photo-Camila-Garcia-marketing.jpg"
-                width="264"
-                height="260"
-                alt="Camila Garcia"
-              />
-              <div class="card-container">
-                <h3 class="team-item-title">Camila Garcia</h3>
-                <p class="team-desc">Marketing</p>
-                <ul class="social-links">
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a href="" target="_blank" class="soc-link">
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-card">
-              <img
-                class="team-photo"
-                src="./images/Photo-Daniel-Wilson-UI-Designer.jpg"
-                width="264"
-                height="260"
-                alt="Daniel Wilson"
-              />
-              <div class="card-container">
-                <h3 class="team-item-title">Daniel Wilson</h3>
-                <p class="team-desc">UI Designer</p>
-                <ul class="social-links">
-                  <li class="social-links-item">
-                    <a
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                      class="soc-link"
-                    >
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a
-                      href="https://www.twitter.com/"
-                      target="_blank"
-                      class="soc-link"
-                    >
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                      class="soc-link"
-                    >
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-links-item">
-                    <a
-                      href="https://www.linkedin.com/"
-                      target="_blank"
-                      class="soc-link"
-                    >
-                      <svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Portfolio-section-->
-      <section class="portfolio section">
-        <div class="container">
-          <h2 class="portfolio-header">Our Portfolio</h2>
-          <ul class="portfolio-list">
-            <li class="portfolio-item">
-              <div class="portfolio-item-overlay">
-                <img
-                  class="portfolio-item-img"
-                  src="./images/banking-app.jpg"
-                  alt="App"
-                  width="360"
-                  height="300"
+      <section class="sale" id="sale">
+        <div class="container sale-container">
+          <h2 class="sale-title">Sale</h2>
+          <div class="sale-blocks">
+            <div class="sale-watch-img">
+              <ul class="sale-watch-block">
+                <li class="sale-watch-1">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-des-11.jpg 1x,
+                        ./img/sale/watch-sale-des-12.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-tab-11.jpg 1x,
+                        ./img/sale/watch-sale-tab-12.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-mob-11.jpg 1x,
+                        ./img/sale/watch-sale-mob-12.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/sale/watch-sale-mob-11.jpg"
+                      alt="watch"
+                      width="80"
+                    />
+                  </picture>
+                </li>
+                <li class="sale-watch-1">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-des-21.jpg 1x,
+                        ./img/sale/watch-sale-des-22.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-tab-21.jpg 1x,
+                        ./img/sale/watch-sale-tab-22.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-mob-21.jpg 1x,
+                        ./img/sale/watch-sale-mob-22.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/sale/watch-sale-mob-21.jpg"
+                      alt="watch"
+                      width="80"
+                    />
+                  </picture>
+                </li>
+                <li class="sale-watch-1">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-des-31.jpg 1x,
+                        ./img/sale/watch-sale-des-32.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-tab-31.jpg 1x,
+                        ./img/sale/watch-sale-tab-32.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-mob-31.jpg 1x,
+                        ./img/sale/watch-sale-mob-32.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/sale/watch-sale-mob-31.jpg"
+                      alt="watch"
+                      width="80"
+                    />
+                  </picture>
+                </li>
+                <li class="sale-watch-1">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-des-41.jpg 1x,
+                        ./img/sale/watch-sale-des-42.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-tab-41.jpg 1x,
+                        ./img/sale/watch-sale-tab-22.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./img/sale/watch-sale-mob-41.jpg 1x,
+                        ./img/sale/watch-sale-mob-42.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./img/sale/watch-sale-mob-41.jpg"
+                      alt="watch"
+                      width="80"
+                    />
+                  </picture>
+                </li>
+              </ul>
+              <picture>
+                <source
+                  srcset="
+                    ./img/sale/watch-sale-des-51.jpg 1x,
+                    ./img/sale/watch-sale-des-52.jpg 2x
+                  "
+                  media="(min-width: 1280px)"
                 />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
+                <source
+                  srcset="
+                    ./img/sale/watch-sale-tab-51.jpg 1x,
+                    ./img/sale/watch-sale-tab-52.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/sale/watch-sale-mob-51.jpg 1x,
+                    ./img/sale/watch-sale-mob-52.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./img/sale/watch-sale-mob-51.jpg"
+                  alt="watch"
+                  width="235"
+                />
+              </picture>
+            </div>
+            <div class="sale-description">
+              <div class="sale-name-tov">
+                <h3 class="sale-name-title">
+                  Greenlane Watch By Police For MenHT
+                </h3>
+                <p class="sale-text">Product tag: PEWJK2227003</p>
+                <p class="sale-cost">
+                  €700<span class="sale-cost-2">€1000</span>
                 </p>
               </div>
-              <div class="portfolio-item-desc">
-                <h3 class="portfolio-subtitle">Banking App</h3>
-                <p class="portfolio-item-text">App</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-item-overlay">
-                <img
-                  class="portfolio-item-img"
-                  src="./images/Cashless-Payment.jpg"
-                  alt="marketing"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
+              <div class="sale-characteristic-1">
+                <h2 class="sale-characteristic-title">Description</h2>
+                <p class="sale-text">
+                  Richly detailed with an understated design - the Police Men’s
+                  Greenlane watch features a versatile multifunction design that
+                  fits effortlessly into work and play. The steel case is
+                  adorned with a semi-transparent black dial. The timepiece
+                  exhibits a contrast through a black IP bracelet with matching
+                  crown and pushers.
                 </p>
               </div>
-              <div class="portfolio-item-desc">
-                <h3 class="portfolio-subtitle">Cashless Payment</h3>
-                <p class="portfolio-item-text">Marketing</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-item-overlay">
-                <img
-                  class="portfolio-item-img"
-                  src="./images/Meditation-App.jpg"
-                  alt="App"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
+              <div class="sale-characteristic-2">
+                <h2 class="sale-characteristic-title">
+                  DETAILS & FEATUREStion
+                </h2>
+                <p class="sale-text">
+                  Gender: man<br />
+                  Size: 46x54.5mm<br />
+                  Case Colour: Steel<br />
+                  Band Material: Metal<br />
+                  Case Material: Metal<br />
+                  Features: Multifunction<br />
+                  Water Resistant: 5 (ATM)<br />
+                  Band Colour: Steel
                 </p>
               </div>
-              <div class="portfolio-item-desc">
-                <h3 class="portfolio-subtitle">Meditation App</h3>
-                <p class="portfolio-item-text">App</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-item-overlay">
-                <img
-                  class="portfolio-item-img"
-                  src="./images/Taxi-Service.jpg"
-                  alt="Marketing"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-item-desc">
-                <h3 class="portfolio-subtitle">Taxi Service</h3>
-                <p class="portfolio-item-text">Marketing</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-item-overlay">
-                <img
-                  class="portfolio-item-img"
-                  src="./images/Screen-Illustrations.jpg"
-                  alt="design"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-item-desc">
-                <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-                <p class="portfolio-item-text">Design</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-item-overlay">
-                <img
-                  class="portfolio-item-img"
-                  src="./images/Online-Courses.jpg"
-                  alt="marketing"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-item-desc">
-                <h3 class="portfolio-subtitle">Online Courses</h3>
-                <p class="portfolio-item-text">Marketing</p>
-              </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <!-- footer -->
-    <footer class="footer section">
-      <div class="container">
-        <div class="footer-text-block">
-          <a href="./index.html" class="logo-header"
-            >Web<span class="logo-footer-part">Studio</span></a
-          >
-          <p class="footer-desc">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <!--Social links-->
-        <div class="soc-link-block">
-          <p class="footer-soc-block-header">Social media</p>
-          <ul class="social-links">
-            <li class="footer-social-item">
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                class="soc-link"
-              >
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="footer-cont-wrap">
+          <div class="wrap-footer-contact">
+            <a class="footer-logo" href="">
+              <img
+                src="./img/footer/logo-footer-mob.png"
+                alt="logo"
+                width="40"
+                height="40"
+              />
+            </a>
+            <a class="footer-logo-desk" href="">
+              <img
+                src="./img/footer/logo-footer-desk.png"
+                alt="logo"
+                width="50"
+                height="50"
+              />
+            </a>
+            <address>
+              <ul class="contacts-list-footer list">
+                <li class="contacts-item-footer">
+                  <a class="contacts-link-footer link" href="tel:+380684439426"
+                    >+380 (68) 443-94-26</a
+                  >
+                </li>
+                <li class="contacts-item-footer">
+                  <a
+                    class="contacts-link-footer-adr link"
+                    href="https://www.google.com/maps/place/1678+Pioneer+Rd,+Salt+Lake+City,+UT+84104,+Сполучені+Штати+Америки/@40.7335892,-111.9622754,17z/data=!3m1!4b1!4m6!3m5!1s0x8752f35b0826d399:0x2b26230524fd3ca3!8m2!3d40.7335892!4d-111.9600867!16s%2Fg%2F11bw41vm_p"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >1678 S. Pioneer Road Salt Lake City UT 84104</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+    
+          <ul class="footer-nav-list list">
+            <li class="footer-nav-item">
+              <a class="footer-nav-link link" href="#about">About us</a>
             </li>
-            <li class="footer-social-item">
-              <a
-                href="https://www.twitter.com/"
-                target="_blank"
-                class="soc-link"
-              >
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link link" href="#catalog">Catalog</a>
             </li>
-            <li class="footer-social-item">
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                class="soc-link"
-              >
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                class="soc-link"
-              >
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link link" href="#sale">Sale</a>
             </li>
           </ul>
         </div>
-        <!--Subscribe-->
-        <div class="subscribe">
-          <p class="footer-soc-block-header">Subscribe</p>
-          <form class="subscribe-form" action="#" method="post">
-            <label class="form" for="email">
-              <input
-                class="footer-input"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-                required
-              />
-            </label>
-            <button type="submit" class="footer-button">
-              Subscribe
-              <svg class="icon-footer" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
+        <ul class="footer-soc-list list">
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link link"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <svg class="footer-icon-soc">
+                <use href="./img/footer/icons.svg#icon-facebook-big"></use>
               </svg>
-            </button>
-          </form>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <svg class="footer-icon-soc">
+                <use href="./img/footer/icons.svg#icon-instagram-big"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link link"
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <svg class="footer-icon-soc">
+                <use href="./img/footer/icons.svg#icon-youtube-big"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <div class="footer-copyright">
+          <p class="footer-text footer-paragraph">
+            &#169;2022 The Watch Spot. All rights reserved.
+          </p>
+          <div class="footer-wrap-text">
+            <p class="footer-text">Privacy Policy</p>
+            <p class="footer-text">Terms of Service</p>
+          </div>
         </div>
       </div>
     </footer>
-
-    <!-- Modal -->
-    <div class="modal" data-backdrop>
-      <div class="modal-window">
-        <button type="button" class="menu-close-button" data-close-modal>
-          <svg class="icon-close" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-modal-btn" type="button" data-modal-close>
+          <svg class="close-modal-icon">
+            <use class="close-modal-svg" href="./img/swiper/icons.svg#icon-close"></use>
           </svg>
         </button>
-
-        <p class="modal-description">
-          Leave your contacts and we will call you back
-        </p>
-
-        <form class="feedback" action="#">
-          <div class="modal-form-div">
-            <label class="form-label" for="user-name">Name</label>
-            <div class="modal-icon-div">
-              <input
-                class="name-input"
-                type="text"
-                name="user-name"
-                id="user-name"
-                required
+        <div class="modal-block1">
+          <ul class="modal-block1-list">
+            <li class="modal-block1-item">
+              <img
+                class="modal-block1-item-img"
+                srcset="./img/buy-now/modal-x2.jpg 2x"
+                src="./img/buy-now/modal.jpg"
+                alt="foto Watch"
+                width="276"
               />
-              <svg class="name-input-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
-            </div>
-          </div>
-
-          <div class="modal-form-div">
-            <label class="form-label" for="user-phone">Phone</label>
-            <div class="modal-icon-div">
-              <input
-                class="name-input"
-                type="tel"
-                name="user-phone"
-                id="user-phone"
-                required
-              />
-              <svg class="name-input-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-            </div>
-          </div>
-
-          <div class="modal-form-div">
-            <label class="form-label" for="user-email">Email</label>
-            <div class="modal-icon-div">
-              <input
-                class="name-input"
-                type="email"
-                name="user-email"
-                id="user-email"
-                required
-              />
-              <svg class="name-input-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-            </div>
-          </div>
-
-          <div class="comment">
-            <label class="form-label" for="user-comment">Comment</label>
-            <textarea
-              class="comment-section"
-              name="user-comment"
-              id="user-comment"
-              placeholder="Text input"
-            ></textarea>
-          </div>
-
-          <div class="checkbox">
-            <input
-              type="checkbox"
-              name="user-privacy"
-              id="user-privacy"
-              value="true"
-              class="checkbox-input visually-hidden"
-            />
-            <label for="user-privacy" class="modal-check-text">
-              <span class="check-privacy">
-                <svg class="checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-vector"></use>
-                </svg>
+              <div class="modal-block1-description">
+                <h3 class="modal-block1-title">
+                  Tube Watch S42 Date Steel With Black Case
+                </h3>
+                <p class="modal-block1-text">€395</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-block2">
+          <form class="modal-block2-form">
+            <label class="modal-block2-label"
+              ><span class="modal-block2-title">Full name</span>
+              <span class="modal-block2-input-wrap"
+                ><input
+                  class="modal-block2-input"
+                  type="text"
+                  name="user-name"
+                  placeholder="Enter your full name"
+                  pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+                  required
+                  minlength="3"
+                />
               </span>
-              I accept the terms and conditions of the
-              <a href="#" class="privacy-policy">Privacy Policy</a>
             </label>
-          </div>
-          <button type="submit" class="button-send">Send</button>
-        </form>
+            <label class="modal-block2-label"
+              ><span class="modal-block2-title">Email</span>
+              <span class="modal-block2-input-wrap"
+                ><input
+                  class="modal-block2-input"
+                  type="text"
+                  name="user-email"
+                  placeholder="Enter your email"
+                  pattern="\S+@[a-z]+.[a-z]+"
+                  required
+                  minlength="5"
+                />
+              </span>
+            </label>
+            <label class="modal-block2-label"
+              ><span class="modal-block2-title">Card number</span>
+              <span class="modal-block2-input-wrap"
+                ><input
+                  class="modal-block2-input"
+                  type="text"
+                  name="user-card"
+                  placeholder="Enter card"
+                  pattern="[1-9]{13,19}"
+                  required
+                  minlength="13"
+                  maxlength="19"
+                />
+              </span>
+            </label>
+            <label class="modal-block2-label modal-no"
+              ><span class="modal-block2-title">Comments</span>
+              <textarea
+                class="modal-block2-input comments"
+                placeholder="Enter your text"
+                name="user-comment"
+                id="user-comment"
+              ></textarea>
+            </label>
+            <button class="submit-modal-btn" type="submit">submit</button>
+            <p class="modal-bottom-text">
+              By clicking on “Submit” button, you agree to our
+              <a href="" class="modal-bottom-link">Privacy Policy</a>, <br />
+              and allow Promodo to use this information for marketing purposes.
+            </p>
+          </form>
+        </div>
       </div>
     </div>
-    <script src="./index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script type="module" src="./js/menu.js"></script>
+    <script type="module" src="./js/modal.js"></script>
+    <script type="module" src="./js/swiper.js"></script>
   </body>
 </html>
