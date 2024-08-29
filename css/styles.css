@@ -892,9 +892,9 @@ header {
   display: block;
 }
 
-.catalog-icons {
+/*.catalog-icons {
   display: none;
-}
+}*/
 
 .watches-overlay {
   position: relative;
@@ -986,12 +986,23 @@ header {
 
 .buy-now-btn:hover,
 .buy-now-btn:focus {
-  border: 1px solid #ffffff;
+  border: 1px solid #FFFFFF;
 }
 
 .catalog-watches-item-desktop {
   display: none;
   position: relative;
+}
+
+.catalog-icons {
+  position: absolute;
+  display: inline-block;
+  stroke-width: 0;
+  stroke: rgba(20, 20, 20, 0.1);
+  fill: #ffffff;
+  right: 14px;
+  top: 14px;
+  z-index: 1;
 }
 
 @media screen and (min-width: 375px) {
@@ -1028,16 +1039,7 @@ header {
     font-size: 40px;
     line-height: calc(44 / 40);
   }
-  .catalog-icons {
-    position: absolute;
-    display: inline-block;
-    stroke-width: 0;
-    stroke: rgba(20, 20, 20, 0.1);
-    fill: #ffffff;
-    right: 14px;
-    top: 14px;
-    z-index: 1;
-  }
+  
   .buy-now-btn {
     width: 122px;
     height: 50px;
@@ -1080,9 +1082,9 @@ header {
   .catalog-tytle {
     margin-bottom: 64px;
   }
-  .catalog-icons {
+  /*.catalog-icons {
     display: none;
-  }
+  }*/
   .buy-now-btn {
     margin-top: 80px;
   }
